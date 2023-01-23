@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;400&family=Mulish:ital,wght@0,200;0,300;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background: linear-gradient(to right, #f8d7d7, #cd5c5c);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon-cabecalho {
+    width: 100px;  
+}
+
+.cabecalho span {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.secao-1 {
+    background-image: url("../img/fundo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 3%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.secao-1 h1, p {
+    color: #fff;
+}
+
+.secao-1 h1 {
+    font-size: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 70px;
+}
+
+.secao-1 p {
+    font-size: 30px;
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 15px;
+}
+
+.secao-1 button {
+    padding: 16px;
+    font-family: 'Mulish', sans-serif;
+    background: linear-gradient(to right, #f8d7d7, #cd5c5c);
+    opacity: 1;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.secao-1 button:hover {
+    opacity: 0.6;
+}
+
+.secao-2{
+    background: linear-gradient(to right, #f8d7d7, #cd5c5c);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-2 p{
+    width: 50%;
+    margin-top: 8%;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.secao-2 h1{
+    font-size: 30px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.secao-3{
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(to right, #f8d7d7, #cd5c5c);
+    flex-direction: column;
+}
+
+.secao-3 img{
+    width: 150px;
+    height: 200px;
+}
+
+.secao-3 h1{
+    margin-left: 45%;
+    margin-bottom: 10%;
+    font-size: 30px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.card-3 span{
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.caixa-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.secao-4 {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    background: linear-gradient(to right, #f8d7d7, #cd5c5c);
+}
+
+.secao-4 h1 {
+    margin-left: 45%;
+    font-size: 30px;
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 10%;
+}
+
+.caixa-4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.topicos-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topicos-4 h3{
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.links-4 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.links-4 img {
+    width: 100px;
+    margin-left: 10%;
+}
+
+.links-4 a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    padding: 10px;
+    background: linear-gradient(to right, #f8d7d7, #cd5c5c);
+}
+
+.footer-1 span{
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.footer-2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+}
+
+.footer-2 ul li {
+    margin-left: 20px;
+}
+
+@media (min-width: 300px) {
+    .secao-3{
+        background-color: blue;
+    }
+ 
+}

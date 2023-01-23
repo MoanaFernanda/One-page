@@ -1,0 +1,54 @@
+@media (max-width: 600px) {
+    .secao-2{ 
+        width: 100%;
+        font-size: 34px;
+
+    }
+
+    .caixa-3{
+      display: inline;
+    }
+
+    .caixa-3 .card-3 span{
+        padding: 10px;
+        font-size: 25px;
+    }
+
+    .secao-4{
+        padding-top: 20px;
+    }
+
+    .secao-4 .caixa-4 ul li{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+
+    }
+    .secao-4 .caixa-4 ul li img{
+        width: 40px;
+
+
+    }
+
+    footer{
+        display: block;
+
+    }
+
+    .footer-1 span {
+        font-size: 15px;
+        font-family: "Mulish", sans-serif;
+    }
+
+    .footer-2 {
+        display: flex;
+        justify-content: left;
+
+    }
+
+    .footer-2 img{
+        padding-top: 10px;
+        width: 40px;
+
+    }
+}
